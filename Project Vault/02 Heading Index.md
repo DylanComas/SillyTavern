@@ -1,0 +1,432 @@
+---
+generated: true
+tags:
+  - vault/index
+---
+
+# Heading Index
+
+Every source heading has a vault file. A document's first heading is represented by its document-index note; each remaining heading is represented by a note under `Entries/`.
+
+- Document-index heading files: 16
+- Section heading files: 396
+- Total heading files: 412
+- Generated: 2026-09-04T23:49:43.813Z
+
+## SillyTavern UI rework
+
+- [[Sources/concepts/sillytavern-ui-rework/changelogs/2026-09-05-astra-fixes|Astra Audit Follow-up — Added, Modified, Removed]] · document index · H1
+  - [[Entries/concepts/sillytavern-ui-rework/changelogs/2026-09-05-astra-fixes/01 Added|Added]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/changelogs/2026-09-05-astra-fixes/02 Modified|Modified]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/changelogs/2026-09-05-astra-fixes/03 Removed|Removed]] · H2
+- [[Sources/concepts/sillytavern-ui-rework/CHARACTER-CARD-COMPATIBILITY-SPEC|Character Card Compatibility and Portability Specification]] · document index · H1
+  - [[Entries/concepts/sillytavern-ui-rework/CHARACTER-CARD-COMPATIBILITY-SPEC/01 Audited reference card|1. Audited reference card]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/CHARACTER-CARD-COMPATIBILITY-SPEC/02 Observed card envelope|2. Observed card envelope]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/CHARACTER-CARD-COMPATIBILITY-SPEC/03 Core Character Card fields|3. Core Character Card fields]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/CHARACTER-CARD-COMPATIBILITY-SPEC/04 SillyTavern extension fields in the fixture|4. SillyTavern extension fields in the fixture]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/CHARACTER-CARD-COMPATIBILITY-SPEC/05 Embedded Character Book structure|5. Embedded Character Book structure]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/CHARACTER-CARD-COMPATIBILITY-SPEC/06 Existing SillyTavern handling to retain|6. Existing SillyTavern handling to retain]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/CHARACTER-CARD-COMPATIBILITY-SPEC/07 Compatibility import contract|7. Compatibility import contract]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/CHARACTER-CARD-COMPATIBILITY-SPEC/08 Compatibility export contract|8. Compatibility export contract]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/CHARACTER-CARD-COMPATIBILITY-SPEC/09 Unknown-field and forward-compatibility rule|9. Unknown-field and forward-compatibility rule]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/CHARACTER-CARD-COMPATIBILITY-SPEC/10 Portable versus app-local metadata proposal|10. Portable versus app-local metadata proposal]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/CHARACTER-CARD-COMPATIBILITY-SPEC/11 Security and privacy boundary|11. Security and privacy boundary]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/CHARACTER-CARD-COMPATIBILITY-SPEC/12 Audit findings and remaining confirmation|12. Audit findings and remaining confirmation]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/CHARACTER-CARD-COMPATIBILITY-SPEC/13 Export privacy precedence|13. Export privacy precedence]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/CHARACTER-CARD-COMPATIBILITY-SPEC/14 Multi-character identity seeding|14. Multi-character identity seeding]] · H2
+- [[Sources/concepts/sillytavern-ui-rework/IMPLEMENTATION-CONTRACTS|Rework Implementation Safety Contracts]] · document index · H1
+  - [[Entries/concepts/sillytavern-ui-rework/IMPLEMENTATION-CONTRACTS/01 Generation and continuation identity|1. Generation and continuation identity]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/IMPLEMENTATION-CONTRACTS/02 Worker scheduling and forward progress|2. Worker scheduling and forward progress]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/IMPLEMENTATION-CONTRACTS/03 Historical scene extraction|3. Historical scene extraction]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/IMPLEMENTATION-CONTRACTS/04 Request-aware On-change delivery|4. Request-aware On-change delivery]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/IMPLEMENTATION-CONTRACTS/05 Worker capabilities and cost|5. Worker capabilities and cost]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/IMPLEMENTATION-CONTRACTS/06 Explicit provider request boundary|6. Explicit provider request boundary]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/IMPLEMENTATION-CONTRACTS/07 Provider quota authority|7. Provider quota authority]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/IMPLEMENTATION-CONTRACTS/08 Shared prompt budgeting|8. Shared prompt budgeting]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/IMPLEMENTATION-CONTRACTS/09 Short Memory baseline proposal|9. Short Memory baseline proposal]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/IMPLEMENTATION-CONTRACTS/10 Progressive configuration delivery|10. Progressive configuration delivery]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/IMPLEMENTATION-CONTRACTS/11 Executable evaluation gate|11. Executable evaluation gate]] · H2
+- [[Sources/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT|Memorybook Foundation Audit]] · document index · H1
+  - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT/01 Executive conclusion|1. Executive conclusion]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT/02 Audit scope and evidence|2. Audit scope and evidence]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT/02.01 Source snapshots|Source snapshots]] · H3
+  - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT/03 Side-by-side functional model|3. Side-by-side functional model]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT/04 Summaryception audit|4. Summaryception audit]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT/04.01 Storage model|4.1 Storage model]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT/04.02 Processing pipeline|4.2 Processing pipeline]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT/04.03 Promotion behavior|4.3 Promotion behavior]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT/04.04 Strong foundation elements|4.4 Strong foundation elements]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT/04.05 Risks and defects we must not inherit|4.5 Risks and defects we must not inherit]] · H3
+      - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT/04.05.01 Information loss is inherent|Information loss is inherent]] · H4
+      - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT/04.05.02 Deepest-layer growth is not hard-bounded|Deepest-layer growth is not hard-bounded]] · H4
+      - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT/04.05.03 Promoted lineage is insufficient|Promoted lineage is insufficient]] · H4
+      - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT/04.05.04 Branch repair can preserve stale deep memory|Branch repair can preserve stale deep memory]] · H4
+      - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT/04.05.05 Editing lower layers does not invalidate dependents|Editing lower layers does not invalidate dependents]] · H4
+      - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT/04.05.06 Chat-switch race exposure|Chat-switch race exposure]] · H4
+      - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT/04.05.07 Message indices are fragile identifiers|Message indices are fragile identifiers]] · H4
+      - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT/04.05.08 Prompt-toggle mutation is too invasive|Prompt-toggle mutation is too invasive]] · H4
+      - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT/04.05.09 Injection policy is rigid|Injection policy is rigid]] · H4
+      - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT/04.05.10 Credential storage is unsuitable|Credential storage is unsuitable]] · H4
+      - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT/04.05.11 No automated tests|No automated tests]] · H4
+  - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT/05 Memory Books audit|5. Memory Books audit]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT/05.01 Storage model|5.1 Storage model]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT/05.02 Base-memory pipeline|5.2 Base-memory pipeline]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT/05.03 Durable consolidation model|5.3 Durable consolidation model]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT/05.04 Lifecycle safeguards|5.4 Lifecycle safeguards]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT/05.05 Tracker foundation|5.5 Tracker foundation]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT/05.06 Strong foundation elements|5.6 Strong foundation elements]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT/05.07 Risks and costs we must not inherit|5.7 Risks and costs we must not inherit]] · H3
+      - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT/05.07.01 Lorebook-as-database conflates two concepts|Lorebook-as-database conflates two concepts]] · H4
+      - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT/05.07.02 UI and configuration breadth is excessive|UI and configuration breadth is excessive]] · H4
+      - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT/05.07.03 Monolithic integration surface|Monolithic integration surface]] · H4
+      - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT/05.07.04 Tight dependency on SillyTavern internals|Tight dependency on SillyTavern internals]] · H4
+      - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT/05.07.05 Message ranges still depend on indices|Message ranges still depend on indices]] · H4
+      - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT/05.07.06 Keyword activation is not sufficient retrieval by itself|Keyword activation is not sufficient retrieval by itself]] · H4
+      - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT/05.07.07 Connection-profile duplication|Connection/profile duplication]] · H4
+      - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT/05.07.08 Integration tests remain incomplete|Integration tests remain incomplete]] · H4
+      - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT/05.07.09 Build tool availability|Build tool availability]] · H4
+  - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT/06 Automated validation result|6. Automated validation result]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT/07 Reuse, adapt, reject|7. Reuse, adapt, reject]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT/07.01 Reuse as conceptual foundations|Reuse as conceptual foundations]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT/07.02 Adapt substantially|Adapt substantially]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT/07.03 Reject from the new foundation|Reject from the new foundation]] · H3
+  - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT/08 Required invariants for the future Memorybook|8. Required invariants for the future Memorybook]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT/09 Foundation recommendation|9. Foundation recommendation]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT/10 Questions reserved for Memorybook design|10. Questions reserved for Memorybook design]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT/11 Extraction retry follow-up|11. Extraction retry follow-up]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT/11.01 Summaryception retry behavior|11.1 Summaryception retry behavior]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT/11.02 Memory Books retry behavior|11.2 Memory Books retry behavior]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FOUNDATION-AUDIT/11.03 SillyTavern retry boundary|11.3 SillyTavern retry boundary]] · H3
+- [[Sources/concepts/sillytavern-ui-rework/MEMORYBOOK-FUNCTIONAL-SPEC|Memorybook Functional Specification]] · document index · H1
+  - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FUNCTIONAL-SPEC/01 Purpose|1. Purpose]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FUNCTIONAL-SPEC/02 Configuration principle|2. Configuration principle]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FUNCTIONAL-SPEC/03 Short Memory|3. Short Memory]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FUNCTIONAL-SPEC/03.01 Role|3.1 Role]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FUNCTIONAL-SPEC/03.02 Automatic trigger modes|3.2 Automatic trigger modes]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FUNCTIONAL-SPEC/03.03 Canonical roleplay-turn model|3.3 Canonical roleplay-turn model]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FUNCTIONAL-SPEC/03.04 Counting rules|3.4 Counting rules]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FUNCTIONAL-SPEC/03.05 Summaryception verbatim baseline|3.5 Summaryception verbatim baseline]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FUNCTIONAL-SPEC/03.06 Batch safety|3.6 Batch safety]] · H3
+  - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FUNCTIONAL-SPEC/04 Configuration surface established so far|4. Configuration surface established so far]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FUNCTIONAL-SPEC/05 Decisions recorded|5. Decisions recorded]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FUNCTIONAL-SPEC/06 Next decisions|6. Next decisions]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FUNCTIONAL-SPEC/07 Long Memory retrieval direction|7. Long Memory retrieval direction]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FUNCTIONAL-SPEC/07.01 Durable entry shape|7.1 Durable entry shape]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FUNCTIONAL-SPEC/07.02 Bounded recursive retrieval|7.2 Bounded recursive retrieval]] · H3
+      - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FUNCTIONAL-SPEC/07.02.01 Recall depth modes|7.2.1 Recall depth modes]] · H4
+      - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FUNCTIONAL-SPEC/07.02.02 Recursive safety ceilings|7.2.2 Recursive safety ceilings]] · H4
+    - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FUNCTIONAL-SPEC/07.03 Long Memory extraction triggers|7.3 Long Memory extraction triggers]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FUNCTIONAL-SPEC/07.04 Manual scene boundary|7.4 Manual scene boundary]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FUNCTIONAL-SPEC/07.05 Direct entry creation and activation|7.5 Direct entry creation and activation]] · H3
+      - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FUNCTIONAL-SPEC/07.05.01 Longform size baseline|7.5.1 Longform size baseline]] · H4
+      - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FUNCTIONAL-SPEC/07.05.02 Tiny Recall format|7.5.2 Tiny Recall format]] · H4
+      - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FUNCTIONAL-SPEC/07.05.03 Extraction retry policy|7.5.3 Extraction retry policy]] · H4
+      - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FUNCTIONAL-SPEC/07.05.04 Scene Details base schema|Scene Details base schema]] · H4
+    - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FUNCTIONAL-SPEC/07.06 Automatic activation and hopping|7.6 Automatic activation and hopping]] · H3
+  - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FUNCTIONAL-SPEC/08 Persistent Scene Memory|8. Persistent Scene Memory]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FUNCTIONAL-SPEC/08.01 Purpose|8.1 Purpose]] · H3
+      - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FUNCTIONAL-SPEC/08.01.01 Persistence without time decay|8.1.1 Persistence without time decay]] · H4
+      - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FUNCTIONAL-SPEC/08.01.02 Semantic replacement and retirement|8.1.2 Semantic replacement and retirement]] · H4
+    - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FUNCTIONAL-SPEC/08.02 Remember This|8.2 Remember This]] · H3
+      - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FUNCTIONAL-SPEC/08.02.01 Pinned-message budget|8.2.1 Pinned-message budget]] · H4
+    - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FUNCTIONAL-SPEC/08.03 State Worker contract|8.3 State Worker contract]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FUNCTIONAL-SPEC/08.04 Automatic scene-boundary detection|8.4 Automatic scene-boundary detection]] · H3
+      - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FUNCTIONAL-SPEC/08.04.01 Boundary placement contract|8.4.1 Boundary placement contract]] · H4
+      - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FUNCTIONAL-SPEC/08.04.02 Labeled evaluation corpus and gates|8.4.2 Labeled evaluation corpus and gates]] · H4
+      - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FUNCTIONAL-SPEC/08.04.03 Automatic detection safeguards|8.4.3 Automatic detection safeguards]] · H4
+    - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FUNCTIONAL-SPEC/08.05 Deployment direction|8.5 Deployment direction]] · H3
+  - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FUNCTIONAL-SPEC/09 Long Memory decisions recorded|9. Long Memory decisions recorded]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/MEMORYBOOK-FUNCTIONAL-SPEC/10 Next Long Memory decisions|10. Next Long Memory decisions]] · H2
+- [[Sources/concepts/sillytavern-ui-rework/PRODUCT-DEFINITION|SillyTavern Rework — Product Definition]] · document index · H1
+  - [[Entries/concepts/sillytavern-ui-rework/PRODUCT-DEFINITION/01 Product focus established so far|1. Product focus established so far]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/PRODUCT-DEFINITION/02 Initial product priorities|2. Initial product priorities]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/PRODUCT-DEFINITION/02.01 Must|Must]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/PRODUCT-DEFINITION/02.02 Should|Should]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/PRODUCT-DEFINITION/02.03 Could or later|Could or later]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/PRODUCT-DEFINITION/02.04 Not part of the default product experience|Not part of the default product experience]] · H3
+  - [[Entries/concepts/sillytavern-ui-rework/PRODUCT-DEFINITION/03 Core workflow inventory — version 1|3. Core workflow inventory — version 1]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/PRODUCT-DEFINITION/04 Settings, associations, and inheritance — decided direction|4. Settings, associations, and inheritance — decided direction]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/PRODUCT-DEFINITION/04.01 Product objects|Product objects]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/PRODUCT-DEFINITION/04.02 Existing chats|Existing chats]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/PRODUCT-DEFINITION/04.03 New chats|New chats]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/PRODUCT-DEFINITION/04.04 Settings protection and versioning|Settings protection and versioning]] · H3
+  - [[Entries/concepts/sillytavern-ui-rework/PRODUCT-DEFINITION/05 Generation configuration and panel — decided direction|5. Generation configuration and panel — decided direction]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/PRODUCT-DEFINITION/05.01 Configuration hierarchy|Configuration hierarchy]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/PRODUCT-DEFINITION/05.02 Preferences placement|Preferences placement]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/PRODUCT-DEFINITION/05.03 Generation panel structure|Generation panel structure]] · H3
+      - [[Entries/concepts/sillytavern-ui-rework/PRODUCT-DEFINITION/05.03.01 Quick setup|Quick setup]] · H4
+      - [[Entries/concepts/sillytavern-ui-rework/PRODUCT-DEFINITION/05.03.02 Core parameters|Core parameters]] · H4
+      - [[Entries/concepts/sillytavern-ui-rework/PRODUCT-DEFINITION/05.03.03 Preset configuration|Preset configuration]] · H4
+      - [[Entries/concepts/sillytavern-ui-rework/PRODUCT-DEFINITION/05.03.04 Advanced|Advanced]] · H4
+    - [[Entries/concepts/sillytavern-ui-rework/PRODUCT-DEFINITION/05.04 Non-bloat rules|Non-bloat rules]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/PRODUCT-DEFINITION/05.05 Automatic loading precedence|Automatic loading precedence]] · H3
+  - [[Entries/concepts/sillytavern-ui-rework/PRODUCT-DEFINITION/06 Memorybooks and Lorebooks — decided separation|6. Memorybooks and Lorebooks — decided separation]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/PRODUCT-DEFINITION/06.01 Proposed memory layers|Proposed memory layers]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/PRODUCT-DEFINITION/06.02 Memory requirements|Memory requirements]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/PRODUCT-DEFINITION/06.03 Short Memory trigger and turn definition|Short Memory trigger and turn definition]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/PRODUCT-DEFINITION/06.04 Long Memory and persistent scene direction|Long Memory and persistent scene direction]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/PRODUCT-DEFINITION/06.05 Simplified Lorebook categories|Simplified Lorebook categories]] · H3
+  - [[Entries/concepts/sillytavern-ui-rework/PRODUCT-DEFINITION/07 Internet research direction|7. Internet research direction]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/PRODUCT-DEFINITION/07.01 Intended experience|Intended experience]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/PRODUCT-DEFINITION/07.02 Token constraint|Token constraint]] · H3
+  - [[Entries/concepts/sillytavern-ui-rework/PRODUCT-DEFINITION/08 Original UI delta ledger — version 1|8. Original UI delta ledger — version 1]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/PRODUCT-DEFINITION/09 Extension integration register — version 1|9. Extension integration register — version 1]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/PRODUCT-DEFINITION/09.01 Horae and Multihog tracker decision|Horae and Multihog tracker decision]] · H3
+  - [[Entries/concepts/sillytavern-ui-rework/PRODUCT-DEFINITION/10 Candidate desktop v1 scope|10. Candidate desktop v1 scope]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/PRODUCT-DEFINITION/11 Phase 1 closure questions|11. Phase 1 closure questions]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/PRODUCT-DEFINITION/11.01 Settings versioning and ownership|11.1 Settings versioning and ownership]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/PRODUCT-DEFINITION/11.02 Character Card metadata portability|11.2 Character Card metadata portability]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/PRODUCT-DEFINITION/11.03 Lorebook compatibility|11.3 Lorebook compatibility]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/PRODUCT-DEFINITION/11.04 Internet research|11.4 Internet research]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/PRODUCT-DEFINITION/11.05 Exact desktop and Android v1 scope|11.5 Exact desktop and Android v1 scope]] · H3
+  - [[Entries/concepts/sillytavern-ui-rework/PRODUCT-DEFINITION/12 Next definition pass|12. Next definition pass]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/PRODUCT-DEFINITION/13 Phase 1 exit review procedure|13. Phase 1 exit review procedure]] · H2
+- [[Sources/concepts/sillytavern-ui-rework/PROMPTS|Generation prompt set]] · document index · H1
+  - [[Entries/concepts/sillytavern-ui-rework/PROMPTS/01 Obsidian Workbench|1. Obsidian Workbench]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/PROMPTS/02 Storybook Editorial|2. Storybook Editorial]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/PROMPTS/03 Immersive Glass Stage|3. Immersive Glass Stage]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/PROMPTS/04 Soft Bento Studio|4. Soft Bento Studio]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/PROMPTS/05 Command Palette Minimal|5. Command Palette Minimal]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/PROMPTS/06 Pocket Tavern|6. Pocket Tavern]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/PROMPTS/07 Neo-Brutalist Character Lab|7. Neo-Brutalist Character Lab]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/PROMPTS/08 Clarity Mode|8. Clarity Mode]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/PROMPTS/09 Branching Story Canvas|9. Branching Story Canvas]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/PROMPTS/10 Cozy Tavern Desk|10. Cozy Tavern Desk]] · H2
+- [[Sources/concepts/sillytavern-ui-rework/README|SillyTavern Rework — Development Bible]] · document index · H1
+  - [[Entries/concepts/sillytavern-ui-rework/README/01 Project intent|1. Project intent]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/README/02 Product principles|2. Product principles]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/README/02.01 Conversation first|Conversation first]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/README/02.02 Simple by default, powerful on demand|Simple by default, powerful on demand]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/README/02.03 Desktop and mobile are related, not identical|Desktop and mobile are related, not identical]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/README/02.04 Native application feel|Native application feel]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/README/02.05 Extensions should feel intentional|Extensions should feel intentional]] · H3
+  - [[Entries/concepts/sillytavern-ui-rework/README/03 Platform direction|3. Platform direction]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/README/03.01 Desktop|Desktop]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/README/03.02 Android|Android]] · H3
+  - [[Entries/concepts/sillytavern-ui-rework/README/04 AI provider and model strategy|4. AI provider and model strategy]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/README/05 Application console|5. Application console]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/README/05.01 Placement|Placement]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/README/05.02 Initial console requirements|Initial console requirements]] · H3
+  - [[Entries/concepts/sillytavern-ui-rework/README/06 Experience architecture|6. Experience architecture]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/README/06.01 Product focus|Product focus]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/README/06.02 Desktop workspace|Desktop workspace]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/README/06.03 Mobile workspace|Mobile workspace]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/README/06.04 Preferences|Preferences]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/README/06.05 Settings protection|Settings protection]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/README/06.06 Memory and lore|Memory and lore]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/README/06.07 Character Card compatibility|Character Card compatibility]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/README/06.08 Internet research|Internet research]] · H3
+  - [[Entries/concepts/sillytavern-ui-rework/README/07 Selected visual baseline|7. Selected visual baseline]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/README/08 Visual language|8. Visual language]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/README/09 Rework boundaries|9. Rework boundaries]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/README/09.01 In scope|In scope]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/README/09.02 Not currently required|Not currently required]] · H3
+  - [[Entries/concepts/sillytavern-ui-rework/README/10 Phase 1 closure and later validation|10. Phase 1 closure and later validation]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/README/10.01 Phase 1 closure questions|Phase 1 closure questions]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/README/10.02 Later validation and release decisions|Later validation and release decisions]] · H3
+  - [[Entries/concepts/sillytavern-ui-rework/README/11 Decision record|11. Decision record]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/README/12 Vault concept-note contract|12. Vault concept-note contract]] · H2
+- [[Sources/concepts/sillytavern-ui-rework/REWORK-PLAN|SillyTavern Rework — Living Delivery Plan]] · document index · H1
+  - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/01 How this plan is maintained|1. How this plan is maintained]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/01.01 Status vocabulary|Status vocabulary]] · H3
+  - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/02 Current position|2. Current position]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/02.01 Completed foundations|Completed foundations]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/02.02 Immediate objective|Immediate objective]] · H3
+  - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/03 Delivery dashboard|3. Delivery dashboard]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/04 Phase 1 — Product definition|4. Phase 1 — Product definition]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/04.01 Core workflow inventory|4.1 Core workflow inventory]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/04.02 Original UI delta ledger|4.2 Original UI delta ledger]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/04.03 Extension integration register|4.3 Extension integration register]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/04.04 Release scope|4.4 Release scope]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/04.05 Phase 1 closure sequence|4.5 Phase 1 closure sequence]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/04.06 Assigned later validation|4.6 Assigned later validation]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/04.07 Phase 1 exit gate|Phase 1 exit gate]] · H3
+  - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/05 Phase 2 — Architecture validation|5. Phase 2 — Architecture validation]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/05.01 Required decisions and spikes|Required decisions and spikes]] · H3
+      - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/05.01.01 Frontend migration|Frontend migration]] · H4
+      - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/05.01.02 Electron runtime|Electron runtime]] · H4
+      - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/05.01.03 Embedded console|Embedded console]] · H4
+      - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/05.01.04 NanoGPT|NanoGPT]] · H4
+      - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/05.01.05 State Worker runtime and transaction|State Worker runtime and transaction]] · H4
+      - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/05.01.06 Android topology|Android topology]] · H4
+      - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/05.01.07 Extension boundary|Extension boundary]] · H4
+    - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/05.02 Architecture records|Architecture records]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/05.03 Phase 2 exit gate|Phase 2 exit gate]] · H3
+  - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/06 Phase 3 — UX and interaction specification|6. Phase 3 — UX and interaction specification]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/06.01 Deliverables|Deliverables]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/06.02 Phase 3 exit gate|Phase 3 exit gate]] · H3
+  - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/07 Phase 4 — Design system foundation|7. Phase 4 — Design system foundation]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/07.01 Deliverables|Deliverables]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/07.02 Phase 4 exit gate|Phase 4 exit gate]] · H3
+  - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/08 Phase 5 — Application platform foundation|8. Phase 5 — Application platform foundation]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/08.01 Workstreams|Workstreams]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/08.02 Phase 5 exit gate|Phase 5 exit gate]] · H3
+  - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/09 Phase 6 — Core desktop experience|9. Phase 6 — Core desktop experience]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/09.01 Suggested implementation order|Suggested implementation order]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/09.02 Phase 6 exit gate|Phase 6 exit gate]] · H3
+  - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/10 Phase 7 — NanoGPT and generation experience|10. Phase 7 — NanoGPT and generation experience]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/10.01 Deliverables|Deliverables]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/10.02 Phase 7 exit gate|Phase 7 exit gate]] · H3
+  - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/11 Phase 8 — Data, settings, and compatibility|11. Phase 8 — Data, settings, and compatibility]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/11.01 Deliverables|Deliverables]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/11.02 Phase 8 exit gate|Phase 8 exit gate]] · H3
+  - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/12 Phase 9 — Native extension integration|12. Phase 9 — Native extension integration]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/12.01 Delivery approach|Delivery approach]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/12.02 Per-extension completion criteria|Per-extension completion criteria]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/12.03 Phase 9 exit gate|Phase 9 exit gate]] · H3
+  - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/13 Phase 10 — Android application|13. Phase 10 — Android application]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/13.01 Deliverables|Deliverables]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/13.02 Phase 10 exit gate|Phase 10 exit gate]] · H3
+  - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/14 Phase 11 — Hardening and release readiness|14. Phase 11 — Hardening and release readiness]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/14.01 Quality tracks|Quality tracks]] · H3
+      - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/14.01.01 Functional|Functional]] · H4
+      - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/14.01.02 Accessibility|Accessibility]] · H4
+      - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/14.01.03 Performance|Performance]] · H4
+      - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/14.01.04 Security and privacy|Security and privacy]] · H4
+    - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/14.02 Phase 11 exit gate|Phase 11 exit gate]] · H3
+  - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/15 Phase 12 — Preview, alpha, and beta|15. Phase 12 — Preview, alpha, and beta]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/15.01 Developer preview|Developer preview]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/15.02 Alpha|Alpha]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/15.03 Beta|Beta]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/15.04 Release candidate|Release candidate]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/15.05 Phase 12 exit gate|Phase 12 exit gate]] · H3
+  - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/16 Phase 13 — Official deployment|16. Phase 13 — Official deployment]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/16.01 Release requirements|Release requirements]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/16.02 Deployment sequence|Deployment sequence]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/16.03 Phase 13 exit gate|Phase 13 exit gate]] · H3
+  - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/17 Phase 14 — Post-launch operations|17. Phase 14 — Post-launch operations]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/17.01 Activities|Activities]] · H3
+  - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/18 Cross-cutting tracks|18. Cross-cutting tracks]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/19 Definition of done|19. Definition of done]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/20 Release-blocking criteria|20. Release-blocking criteria]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/21 Working backlog structure|21. Working backlog structure]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/22 Next working session|22. Next working session]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/REWORK-PLAN/23 Astra follow-up and exit-review constraints|23. Astra follow-up and exit-review constraints]] · H2
+- [[Sources/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC|Scene State and Visual Tracker Functional Specification]] · document index · H1
+  - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/01 Purpose|1. Purpose]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/02 Product principles|2. Product principles]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/02.01 Visual first|Visual first]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/02.02 Quiet in the conversation|Quiet in the conversation]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/02.03 Token-aware, not statelessness-blind|Token-aware, not statelessness-blind]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/02.04 Configurable without becoming a control wall|Configurable without becoming a control wall]] · H3
+  - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/03 Authoritative state|3. Authoritative state]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/03.01 Story Continuity Profile|3.1 Story Continuity Profile]] · H3
+  - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/04 Tracker lifetimes|4. Tracker lifetimes]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/05 Model-delivery policies|5. Model-delivery policies]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/05.01 Location delivery|5.1 Location delivery]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/05.02 Time-phase delivery|5.2 Time-phase delivery]] · H3
+  - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/06 Initial visual surfaces|6. Initial visual surfaces]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/06.01 Scene clock|6.1 Scene clock]] · H3
+      - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/06.01.01 Default nine-phase day cycle|6.1.1 Default nine-phase day cycle]] · H4
+      - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/06.01.02 Forward-only Time Skip HUD|6.1.2 Forward-only Time Skip HUD]] · H4
+    - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/06.02 Environmental layer|6.2 Environmental layer]] · H3
+      - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/06.02.01 Static and Animated GFX levels|6.2.1 Static and Animated GFX levels]] · H4
+    - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/06.03 Cast panel|6.3 Cast panel]] · H3
+  - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/07 Weather sources|7. Weather sources]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/07.01 OpenWeather provider|7.1 OpenWeather provider]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/07.02 Location and provider privacy boundary|7.2 Location and provider privacy boundary]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/07.03 Normalization and model delivery|7.3 Normalization and model delivery]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/07.04 OpenWeather attribution and distribution gate|7.4 OpenWeather attribution and distribution gate]] · H3
+  - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/08 Character Bank|8. Character Bank]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/08.01 Ownership|8.1 Ownership]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/08.02 Minimal native record|8.2 Minimal native record]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/08.03 Discovery|8.3 Discovery]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/08.04 Field lifetimes and updates|8.4 Field lifetimes and updates]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/08.05 Persona relationships|8.5 Persona relationships]] · H3
+      - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/08.05.01 Automation sources|8.5.1 Automation sources]] · H4
+      - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/08.05.02 Score and automatic-update validation|8.5.2 Score and automatic-update validation]] · H4
+      - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/08.05.03 Manual adjustment modes|8.5.3 Manual adjustment modes]] · H4
+    - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/08.06 Lorebook Entry link|8.6 Lorebook Entry link]] · H3
+  - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/09 Native Dialogue Colorizer|9. Native Dialogue Colorizer]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/09.01 Novel-dialogue attribution|9.1 Novel-dialogue attribution]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/09.02 Color controls|9.2 Color controls]] · H3
+  - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/10 State Worker and token behavior|10. State Worker and token behavior]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/10.01 Provider-aware usage protection|10.1 Provider-aware usage protection]] · H3
+  - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/11 Decisions recorded|11. Decisions recorded]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/12 Open decisions|12. Open decisions]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/13 Tracker technical limits|13. Tracker technical limits]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/13.01 Local State Worker model and delivery|13.1 Local State Worker model and delivery]] · H3
+      - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/13.01.01 State Worker setup gate|13.1.1 State Worker setup gate]] · H4
+      - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/13.01.02 Worker model selection and Browse|13.1.2 Worker model selection and Browse]] · H4
+    - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/13.02 State Worker cadence|13.2 State Worker cadence]] · H3
+      - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/13.02.01 Result presentation and streaming|13.2.1 Result presentation and streaming]] · H4
+    - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/13.03 Token conservation behavior|13.3 Token conservation behavior]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/13.04 Provider-aware budget accounting|13.4 Provider-aware budget accounting]] · H3
+      - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/13.04.01 NanoGPT 60-million-token benchmark|13.4.1 NanoGPT 60-million-token benchmark]] · H4
+    - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/13.05 Recovery, retries, and validation|13.5 Recovery, retries, and validation]] · H3
+      - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/13.05.01 SillyTavern reuse boundary|13.5.1 SillyTavern reuse boundary]] · H4
+  - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/14 State Worker evaluation fixture|14. State Worker evaluation fixture]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/14.01 Evaluation procedure|14.1 Evaluation procedure]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/14.02 Ready multi-character continuity case|14.2 Ready multi-character continuity case]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/SCENE-STATE-TRACKER-SPEC/14.03 Worker instruction contract|14.3 Worker instruction contract]] · H3
+- [[Sources/concepts/sillytavern-ui-rework/SETTINGS-VERSIONING-SPEC|Settings, Defaults, and Versioning Specification]] · document index · H1
+  - [[Entries/concepts/sillytavern-ui-rework/SETTINGS-VERSIONING-SPEC/01 Terminology boundary|1. Terminology boundary]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/SETTINGS-VERSIONING-SPEC/02 Version identities|2. Version identities]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/SETTINGS-VERSIONING-SPEC/02.01 Application version|2.1 Application version]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/SETTINGS-VERSIONING-SPEC/02.02 Settings schema version|2.2 Settings schema version]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/SETTINGS-VERSIONING-SPEC/02.03 Factory Defaults revision|2.3 Factory Defaults revision]] · H3
+  - [[Entries/concepts/sillytavern-ui-rework/SETTINGS-VERSIONING-SPEC/03 Development authoring and promotion|3. Development authoring and promotion]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/SETTINGS-VERSIONING-SPEC/04 Changelog and behavioral record|4. Changelog and behavioral record]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/SETTINGS-VERSIONING-SPEC/05 Protection and validation|5. Protection and validation]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/SETTINGS-VERSIONING-SPEC/06 Logical settings ownership|6. Logical settings ownership]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/SETTINGS-VERSIONING-SPEC/07 User Save and Export contract|7. User Save and Export contract]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/SETTINGS-VERSIONING-SPEC/08 Phase 1 decision|8. Phase 1 decision]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/SETTINGS-VERSIONING-SPEC/09 Resolved values and mutable references|9. Resolved values and mutable references]] · H2
+- [[Sources/concepts/sillytavern-ui-rework/STATE-WORKER-FOUNDATION-AUDIT|State Worker Reliability Foundation Audit]] · document index · H1
+  - [[Entries/concepts/sillytavern-ui-rework/STATE-WORKER-FOUNDATION-AUDIT/01 Executive finding|1. Executive finding]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/STATE-WORKER-FOUNDATION-AUDIT/02 Atomic persistence and backups|2. Atomic persistence and backups]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/STATE-WORKER-FOUNDATION-AUDIT/03 Concurrent-overwrite protection|3. Concurrent-overwrite protection]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/STATE-WORKER-FOUNDATION-AUDIT/04 Cancellation and stale-job handling|4. Cancellation and stale-job handling]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/STATE-WORKER-FOUNDATION-AUDIT/05 Provider and local-runtime adapters|5. Provider and local-runtime adapters]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/STATE-WORKER-FOUNDATION-AUDIT/06 Structured output support|6. Structured output support]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/STATE-WORKER-FOUNDATION-AUDIT/07 Usage and subscription reporting|7. Usage and subscription reporting]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/STATE-WORKER-FOUNDATION-AUDIT/08 Retry behavior|8. Retry behavior]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/STATE-WORKER-FOUNDATION-AUDIT/09 Streaming presentation|9. Streaming presentation]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/STATE-WORKER-FOUNDATION-AUDIT/10 Reuse and replacement map|10. Reuse and replacement map]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/STATE-WORKER-FOUNDATION-AUDIT/11 Audit conclusion for the technical limits|11. Audit conclusion for the technical limits]] · H2
+- [[Sources/concepts/sillytavern-ui-rework/TRACKER-FOUNDATION-AUDIT|Scene State and Tracker Foundation Audit]] · document index · H1
+  - [[Entries/concepts/sillytavern-ui-rework/TRACKER-FOUNDATION-AUDIT/01 Executive conclusion|1. Executive conclusion]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/TRACKER-FOUNDATION-AUDIT/02 Audit scope and snapshots|2. Audit scope and snapshots]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/TRACKER-FOUNDATION-AUDIT/02.01 Horae|Horae]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/TRACKER-FOUNDATION-AUDIT/02.02 Multihog DnD Framework|Multihog DnD Framework]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/TRACKER-FOUNDATION-AUDIT/02.03 MeguminSuite|MeguminSuite]] · H3
+  - [[Entries/concepts/sillytavern-ui-rework/TRACKER-FOUNDATION-AUDIT/03 The product boundary established by this audit|3. The product boundary established by this audit]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/TRACKER-FOUNDATION-AUDIT/03.01 First-release Scene State|First-release Scene State]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/TRACKER-FOUNDATION-AUDIT/03.02 Extracted Scene Details|Extracted Scene Details]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/TRACKER-FOUNDATION-AUDIT/03.03 Deferred Playing Mode|Deferred Playing Mode]] · H3
+  - [[Entries/concepts/sillytavern-ui-rework/TRACKER-FOUNDATION-AUDIT/04 Horae audit|4. Horae audit]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/TRACKER-FOUNDATION-AUDIT/04.01 What Horae does well|4.1 What Horae does well]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/TRACKER-FOUNDATION-AUDIT/04.02 What should not be inherited|4.2 What should not be inherited]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/TRACKER-FOUNDATION-AUDIT/04.03 Horae disposition|4.3 Horae disposition]] · H3
+  - [[Entries/concepts/sillytavern-ui-rework/TRACKER-FOUNDATION-AUDIT/05 Multihog audit|5. Multihog audit]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/TRACKER-FOUNDATION-AUDIT/05.01 What Multihog does well|5.1 What Multihog does well]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/TRACKER-FOUNDATION-AUDIT/05.02 What should not be inherited|5.2 What should not be inherited]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/TRACKER-FOUNDATION-AUDIT/05.03 Multihog disposition|5.3 Multihog disposition]] · H3
+  - [[Entries/concepts/sillytavern-ui-rework/TRACKER-FOUNDATION-AUDIT/06 MeguminSuite audit|6. MeguminSuite audit]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/TRACKER-FOUNDATION-AUDIT/06.01 What the NPC Bank does well|6.1 What the NPC Bank does well]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/TRACKER-FOUNDATION-AUDIT/06.02 What should not be inherited|6.2 What should not be inherited]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/TRACKER-FOUNDATION-AUDIT/06.03 MeguminSuite disposition|6.3 MeguminSuite disposition]] · H3
+  - [[Entries/concepts/sillytavern-ui-rework/TRACKER-FOUNDATION-AUDIT/07 Recommended native architecture|7. Recommended native architecture]] · H2
+    - [[Entries/concepts/sillytavern-ui-rework/TRACKER-FOUNDATION-AUDIT/07.01 Authoritative records|7.1 Authoritative records]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/TRACKER-FOUNDATION-AUDIT/07.02 State Worker contract|7.2 State Worker contract]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/TRACKER-FOUNDATION-AUDIT/07.03 Scene Details handoff|7.3 Scene Details handoff]] · H3
+    - [[Entries/concepts/sillytavern-ui-rework/TRACKER-FOUNDATION-AUDIT/07.04 Inheritance and ownership|7.4 Inheritance and ownership]] · H3
+  - [[Entries/concepts/sillytavern-ui-rework/TRACKER-FOUNDATION-AUDIT/08 Required implementation invariants|8. Required implementation invariants]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/TRACKER-FOUNDATION-AUDIT/09 Verification performed|9. Verification performed]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/TRACKER-FOUNDATION-AUDIT/10 Decision and next specification work|10. Decision and next specification work]] · H2
+- [[Sources/concepts/sillytavern-ui-rework/WORKFLOW-SURFACE-MAP|Current Workflow Surface Map]] · document index · H1
+  - [[Entries/concepts/sillytavern-ui-rework/WORKFLOW-SURFACE-MAP/01 Conversation and identity|Conversation and identity]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/WORKFLOW-SURFACE-MAP/02 Generation and settings|Generation and settings]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/WORKFLOW-SURFACE-MAP/03 Memory and scene tools|Memory and scene tools]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/WORKFLOW-SURFACE-MAP/04 Research and diagnostics|Research and diagnostics]] · H2
+  - [[Entries/concepts/sillytavern-ui-rework/WORKFLOW-SURFACE-MAP/05 Art direction boundary|Art direction boundary]] · H2
+
+## SillyTavern unified suite
+
+- [[Sources/concepts/sillytavern-unified-suite/PROMPTS|Prompt set]] · document index · H1
+  - [[Entries/concepts/sillytavern-unified-suite/PROMPTS/01 Final corrected showcase prompts|Final corrected showcase prompts]] · H2
+- [[Sources/concepts/sillytavern-unified-suite/README|SillyTavern Studio — Unified Desktop and Android Suite]] · document index · H1
+  - [[Entries/concepts/sillytavern-unified-suite/README/01 Final theme showcase|Final theme showcase]] · H2
+  - [[Entries/concepts/sillytavern-unified-suite/README/02 Proposed screens|Proposed screens]] · H2
+  - [[Entries/concepts/sillytavern-unified-suite/README/03 Shared product architecture|Shared product architecture]] · H2
+  - [[Entries/concepts/sillytavern-unified-suite/README/04 Interaction rules|Interaction rules]] · H2
